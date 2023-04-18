@@ -124,5 +124,10 @@ namespace Pantallas_SIVAA
                 dataGridView1.Rows[e.RowIndex].Selected = true;
             }
         }
+
+        private void ProovedoresPrin_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
