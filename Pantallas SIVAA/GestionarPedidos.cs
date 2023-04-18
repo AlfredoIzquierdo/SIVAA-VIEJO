@@ -18,10 +18,11 @@ namespace Pantallas_SIVAA.Pedidos
         public static EditarPedidos editarPedidos = new EditarPedidos();
         public static AgregarPedidos agregarPedidos = new AgregarPedidos();
         readonly PedidoD Producto = new PedidoD();
-
-        public GestionarPedidos()
+        Empleado _pqt;
+        public GestionarPedidos(Empleado pqt)
         {
             InitializeComponent();
+            this._pqt = pqt;
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)

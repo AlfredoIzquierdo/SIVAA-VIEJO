@@ -23,7 +23,7 @@ namespace Pantallas_SIVAA
         public static Clientes Clientes = new Clientes();
 
         // barra lateral
-        public static GestionarPedidos Pedidos = new GestionarPedidos();
+        public static GestionarPedidos Pedidos = new GestionarPedidos(null);
         public static Inventario Stock = new Inventario();
         public static CalendarioCitas CalendarioCitas = new CalendarioCitas(null);
         public static Ventas Ventas = new Ventas();
@@ -141,7 +141,8 @@ namespace Pantallas_SIVAA
         private void btnPedidos_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Pedidos.Show();
+            GestionarPedidos pedido = new GestionarPedidos(_pqt);
+            pedido.Show();
         }
 
         private void btnStock_Click(object sender, EventArgs e)
