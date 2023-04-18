@@ -20,6 +20,7 @@ namespace Pantallas_SIVAA
         Empleado _pqt;
         //prueba
         //prueba 2
+        //prueba 3
         public ProovedoresPrin()
         {
             InitializeComponent();
