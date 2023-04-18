@@ -24,11 +24,11 @@ namespace Pantallas_SIVAA
 
         // barra lateral
         public static GestionarPedidos Pedidos = new GestionarPedidos(null);
-        public static Inventario Stock = new Inventario();
+        public static Inventario Stock = new Inventario(null);
         public static CalendarioCitas CalendarioCitas = new CalendarioCitas(null);
         public static Ventas Ventas = new Ventas();
         public static AbrirCaja Caja;
-        public static Reportes Reportes = new Reportes();
+        public static Reportes Reportes = new Reportes(null);
 
         private Empleado _pqt;
         public Inicio(Empleado pqt)
@@ -140,27 +140,29 @@ namespace Pantallas_SIVAA
 
         private void btnPedidos_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             GestionarPedidos pedido = new GestionarPedidos(_pqt);
             pedido.Show();
         }
 
         private void btnStock_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Stock.Show();
+            this.Close();
+            Inventario inventario = new Inventario(_pqt);
+            inventario.Show();
         }
 
         private void btnCitas_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             CalendarioCitas citas = new CalendarioCitas(_pqt);
             citas.Show();
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
+            Ventas Ventas = new Ventas();
             Ventas.Show();
         }
 
@@ -173,13 +175,16 @@ namespace Pantallas_SIVAA
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Reportes.Show();
+            this.Close();
+            Reportes ReportesPrincipal = new Reportes(_pqt);
+            ReportesPrincipal.Show();
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
 
         }
+
+        
     }
 }

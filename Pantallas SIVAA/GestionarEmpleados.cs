@@ -28,9 +28,12 @@ namespace Pantallas_SIVAA
         {
             if (dataGridView1.SelectedCells.Count > 0)
             {
+                //otra prueba
                 MessageBox.Show("La accion que realizaras es irreversible ¿estas seguro de esto?", "Eliminacion de empleado", MessageBoxButtons.OKCancel);
                 dataGridView1.ClearSelection();
                 MessageBox.Show("Empleado eliminado con exito");
+                //asdasdasdasdasdasd
+                //asdasdasdasd
             }
             else
             {
@@ -132,5 +135,7 @@ namespace Pantallas_SIVAA
                 dataGridView1.Rows[e.RowIndex].Selected = true;
             }
         }
+
+        
     }
 }

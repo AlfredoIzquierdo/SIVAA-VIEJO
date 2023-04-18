@@ -66,7 +66,7 @@ namespace Pantallas_SIVAA
 
         private void btnStock_Click(object sender, EventArgs e)
         {
-            Inventario stock = new Inventario();
+            Inventario stock = new Inventario(_pqt);
             this.Hide();
             stock.Show();
         }
@@ -95,7 +95,7 @@ namespace Pantallas_SIVAA
         private void btnReportes_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Reportes reportes = new Reportes();
+            Reportes reportes = new Reportes(_pqt);
             reportes.Show();
         }
 
