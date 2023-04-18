@@ -31,6 +31,7 @@ namespace Pantallas_SIVAA
                 MessageBox.Show("La accion que realizaras es irreversible ¿estas seguro de esto?", "Eliminacion de empleado", MessageBoxButtons.OKCancel);
                 dataGridView1.ClearSelection();
                 MessageBox.Show("Empleado eliminado con exito");
+                //asdasdasdasdasdasd
             }
             else
             {
@@ -132,5 +133,7 @@ namespace Pantallas_SIVAA
                 dataGridView1.Rows[e.RowIndex].Selected = true;
             }
         }
+
+        
     }
 }
