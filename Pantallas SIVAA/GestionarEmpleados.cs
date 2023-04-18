@@ -32,6 +32,7 @@ namespace Pantallas_SIVAA
                 dataGridView1.ClearSelection();
                 MessageBox.Show("Empleado eliminado con exito");
                 //asdasdasdasdasdasd
+                //asdasdasdasd
             }
             else
             {
