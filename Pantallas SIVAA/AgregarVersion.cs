@@ -19,6 +19,9 @@ namespace Pantallas_SIVAA
     public partial class AgregarVersion : Form
     {
         //kdmflasmlasmc
+        //aaaaaaaaaaaa
+        //aaaaaaaaaaaa
+        //aaaaaaaaaaaa
         Versions version = new Versions();
         VersionLog log = new VersionLog();
         VehiculoLog veh = new VehiculoLog();
