@@ -57,6 +57,7 @@ namespace Pantallas_SIVAA
                 ModificarEmpleado modificarEmpleado = new ModificarEmpleado(id);
                 this.Hide();
                 modificarEmpleado.Show();
+                //este es  una prueba loca
             }
             else
             {
