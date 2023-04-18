@@ -18,7 +18,7 @@ namespace Pantallas_SIVAA
     {
         public static NuevoEmpleado nuevoEmpleado = new NuevoEmpleado();
         readonly EmpleadoLog empleado = new EmpleadoLog();
-
+        // cola
         public GestionarEmpleados()
         {
             InitializeComponent();
