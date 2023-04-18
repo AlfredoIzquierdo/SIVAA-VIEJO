@@ -34,6 +34,7 @@ namespace Pantallas_SIVAA
                 MessageBox.Show("Empleado eliminado con exito");
                 //asdasdasdasdasdasd
                 //asdasdasdasd
+                //esto es una prueba
             }
             else
             {
