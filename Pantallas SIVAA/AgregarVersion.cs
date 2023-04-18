@@ -15,6 +15,7 @@ using System.Windows.Forms;
 
 namespace Pantallas_SIVAA
 {
+    //alfredo
     public partial class AgregarVersion : Form
     {
         Versions version = new Versions();
@@ -149,6 +150,11 @@ namespace Pantallas_SIVAA
                 }
             }
             return id;
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
