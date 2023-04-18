@@ -76,7 +76,7 @@ namespace Pantallas_SIVAA
         private void btnAgregarVersion_Click(object sender, EventArgs e)
         {
             List<Versions> x = log.ListadoTotal();
-            string i = "VR" + (x.Count+1).ToString();
+            string i = "VR" + (x.Count + 1).ToString();
             //string i = "VR32" ;
             version.IDVersion = i;
             version.Costo = Convert.ToDouble(txtCosto.Text);

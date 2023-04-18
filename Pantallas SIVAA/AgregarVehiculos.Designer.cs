@@ -55,9 +55,10 @@
             // btnAgregarVehiculo
             // 
             btnAgregarVehiculo.Anchor = AnchorStyles.Bottom;
-            btnAgregarVehiculo.Location = new Point(267, 269);
+            btnAgregarVehiculo.Location = new Point(305, 359);
+            btnAgregarVehiculo.Margin = new Padding(3, 4, 3, 4);
             btnAgregarVehiculo.Name = "btnAgregarVehiculo";
-            btnAgregarVehiculo.Size = new Size(155, 23);
+            btnAgregarVehiculo.Size = new Size(177, 31);
             btnAgregarVehiculo.TabIndex = 108;
             btnAgregarVehiculo.Text = "Agregar";
             btnAgregarVehiculo.UseVisualStyleBackColor = true;
@@ -67,19 +68,21 @@
             // 
             label15.Anchor = AnchorStyles.Top;
             label15.AutoSize = true;
-            label15.Location = new Point(320, 163);
+            label15.Location = new Point(366, 217);
             label15.Name = "label15";
-            label15.Size = new Size(51, 15);
+            label15.Size = new Size(64, 20);
             label15.TabIndex = 110;
             label15.Text = "Nombre";
             // 
             // txtNombre
             // 
             txtNombre.Anchor = AnchorStyles.Top;
-            txtNombre.Location = new Point(227, 197);
+            txtNombre.Location = new Point(259, 263);
+            txtNombre.Margin = new Padding(3, 4, 3, 4);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(233, 23);
+            txtNombre.Size = new Size(266, 27);
             txtNombre.TabIndex = 112;
+            txtNombre.TextChanged += txtNombre_TextChanged;
             // 
             // imageList2
             // 
@@ -104,18 +107,19 @@
             panel7.Controls.Add(label7);
             panel7.Controls.Add(pictureBox13);
             panel7.ForeColor = Color.White;
-            panel7.Location = new Point(3, 5);
+            panel7.Location = new Point(3, 7);
+            panel7.Margin = new Padding(3, 4, 3, 4);
             panel7.Name = "panel7";
-            panel7.Size = new Size(684, 57);
+            panel7.Size = new Size(782, 76);
             panel7.TabIndex = 118;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(243, 13);
+            label1.Location = new Point(278, 17);
             label1.Name = "label1";
-            label1.Size = new Size(205, 32);
+            label1.Size = new Size(255, 41);
             label1.TabIndex = 17;
             label1.Text = "Agregar vehiculos";
             // 
@@ -124,10 +128,10 @@
             label4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(2277, 34);
+            label4.Location = new Point(2602, 45);
             label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(62, 15);
+            label4.Size = new Size(78, 20);
             label4.TabIndex = 1;
             label4.Text = "Supervisor";
             // 
@@ -136,10 +140,10 @@
             label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(2220, 9);
+            label2.Location = new Point(2537, 12);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(172, 21);
+            label2.Size = new Size(217, 28);
             label2.TabIndex = 1;
             label2.Text = "Bienvenido: Fulanito";
             label2.TextAlign = ContentAlignment.TopCenter;
@@ -148,19 +152,19 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(114, 15);
+            label7.Location = new Point(130, 20);
             label7.Name = "label7";
-            label7.Size = new Size(76, 30);
+            label7.Size = new Size(100, 38);
             label7.TabIndex = 16;
             label7.Text = "SIVAA";
             // 
             // pictureBox13
             // 
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(15, 7);
-            pictureBox13.Margin = new Padding(2);
+            pictureBox13.Location = new Point(17, 9);
+            pictureBox13.Margin = new Padding(2, 3, 2, 3);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(46, 40);
+            pictureBox13.Size = new Size(53, 53);
             pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox13.TabIndex = 2;
             pictureBox13.TabStop = false;
@@ -176,10 +180,10 @@
             panel1.Controls.Add(btnCitas);
             panel1.Controls.Add(btnStock);
             panel1.Controls.Add(btnPedidos);
-            panel1.Location = new Point(3, 63);
-            panel1.Margin = new Padding(2);
+            panel1.Location = new Point(3, 84);
+            panel1.Margin = new Padding(2, 3, 2, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(66, 348);
+            panel1.Size = new Size(75, 464);
             panel1.TabIndex = 117;
             // 
             // btnReportes
@@ -190,10 +194,10 @@
             btnReportes.ImageAlign = ContentAlignment.TopCenter;
             btnReportes.ImageKey = "bar-chart.png";
             btnReportes.ImageList = imageList2;
-            btnReportes.Location = new Point(0, 288);
-            btnReportes.Margin = new Padding(2);
+            btnReportes.Location = new Point(0, 384);
+            btnReportes.Margin = new Padding(2, 3, 2, 3);
             btnReportes.Name = "btnReportes";
-            btnReportes.Size = new Size(72, 57);
+            btnReportes.Size = new Size(82, 76);
             btnReportes.TabIndex = 10;
             btnReportes.Text = "Reportes";
             btnReportes.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -208,10 +212,10 @@
             btnCobros.ImageAlign = ContentAlignment.TopCenter;
             btnCobros.ImageKey = "dollar-sign.png";
             btnCobros.ImageList = imageList2;
-            btnCobros.Location = new Point(0, 230);
-            btnCobros.Margin = new Padding(2);
+            btnCobros.Location = new Point(0, 307);
+            btnCobros.Margin = new Padding(2, 3, 2, 3);
             btnCobros.Name = "btnCobros";
-            btnCobros.Size = new Size(72, 57);
+            btnCobros.Size = new Size(82, 76);
             btnCobros.TabIndex = 9;
             btnCobros.Text = "Cobros";
             btnCobros.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -226,10 +230,10 @@
             btnVentas.ImageAlign = ContentAlignment.TopCenter;
             btnVentas.ImageKey = "shopping-cart.png";
             btnVentas.ImageList = imageList2;
-            btnVentas.Location = new Point(0, 172);
-            btnVentas.Margin = new Padding(2);
+            btnVentas.Location = new Point(0, 229);
+            btnVentas.Margin = new Padding(2, 3, 2, 3);
             btnVentas.Name = "btnVentas";
-            btnVentas.Size = new Size(72, 57);
+            btnVentas.Size = new Size(82, 76);
             btnVentas.TabIndex = 8;
             btnVentas.Text = "Ventas";
             btnVentas.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -244,10 +248,10 @@
             btnCitas.ImageAlign = ContentAlignment.TopCenter;
             btnCitas.ImageKey = "calendar.png";
             btnCitas.ImageList = imageList2;
-            btnCitas.Location = new Point(0, 116);
-            btnCitas.Margin = new Padding(2);
+            btnCitas.Location = new Point(0, 155);
+            btnCitas.Margin = new Padding(2, 3, 2, 3);
             btnCitas.Name = "btnCitas";
-            btnCitas.Size = new Size(72, 57);
+            btnCitas.Size = new Size(82, 76);
             btnCitas.TabIndex = 7;
             btnCitas.Text = "Citas";
             btnCitas.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -262,10 +266,10 @@
             btnStock.ImageAlign = ContentAlignment.TopCenter;
             btnStock.ImageKey = "book-open.png";
             btnStock.ImageList = imageList2;
-            btnStock.Location = new Point(0, 58);
-            btnStock.Margin = new Padding(2);
+            btnStock.Location = new Point(0, 77);
+            btnStock.Margin = new Padding(2, 3, 2, 3);
             btnStock.Name = "btnStock";
-            btnStock.Size = new Size(72, 57);
+            btnStock.Size = new Size(82, 76);
             btnStock.TabIndex = 6;
             btnStock.Text = "Stock";
             btnStock.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -280,10 +284,10 @@
             btnPedidos.ImageAlign = ContentAlignment.TopCenter;
             btnPedidos.ImageKey = "package.png";
             btnPedidos.ImageList = imageList2;
-            btnPedidos.Location = new Point(0, 2);
-            btnPedidos.Margin = new Padding(2);
+            btnPedidos.Location = new Point(0, 3);
+            btnPedidos.Margin = new Padding(2, 3, 2, 3);
             btnPedidos.Name = "btnPedidos";
-            btnPedidos.Size = new Size(72, 57);
+            btnPedidos.Size = new Size(82, 76);
             btnPedidos.TabIndex = 5;
             btnPedidos.Text = "Pedidos";
             btnPedidos.TextImageRelation = TextImageRelation.ImageAboveText;
@@ -292,14 +296,15 @@
             // 
             // AgregarVehiculos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(690, 415);
+            ClientSize = new Size(789, 553);
             Controls.Add(panel7);
             Controls.Add(panel1);
             Controls.Add(txtNombre);
             Controls.Add(label15);
             Controls.Add(btnAgregarVehiculo);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "AgregarVehiculos";
             Text = "AgregarVehiculos";
             WindowState = FormWindowState.Maximized;

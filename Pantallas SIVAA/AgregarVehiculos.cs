@@ -70,7 +70,7 @@ namespace Pantallas_SIVAA
         private void btnAgregarVehiculo_Click(object sender, EventArgs e)
         {
             List<Vehiculo> x = vehiculoLog.ListadoAll();
-            string i = "Vh" + x.Count.ToString();
+            string i = "Vh" + (x.Count+1).ToString();
             vehiculo.IDVehiculo = i;
             vehiculo.Nombre = txtNombre.Text;
 
@@ -78,6 +78,11 @@ namespace Pantallas_SIVAA
 
             this.Hide();
             proovedoresagr.Show();
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
