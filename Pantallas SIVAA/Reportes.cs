@@ -8,16 +8,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades;
 
 namespace Pantallas_SIVAA
 {
     public partial class Reportes : Form
     {
         PeriodoMejorCliente periodoMejorCliente = new PeriodoMejorCliente();
-
-        public Reportes()
+        Empleado _pqt;
+        public Reportes(Empleado pqt)
         {
             InitializeComponent();
+            _pqt = pqt;
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
@@ -95,7 +97,7 @@ namespace Pantallas_SIVAA
 
         private void btnProveedor_Click(object sender, EventArgs e)
         {
-            PeriodoMejorEmpleado periodoMejorEmpleado = new PeriodoMejorEmpleado();
+            PeriodoMejorEmpleado periodoMejorEmpleado = new PeriodoMejorEmpleado(_pqt);
             periodoMejorEmpleado.Show();
         }
 
