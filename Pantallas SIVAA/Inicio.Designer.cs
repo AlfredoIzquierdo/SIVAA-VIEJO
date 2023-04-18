@@ -52,6 +52,7 @@
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnProveedor = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.panel7.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -61,10 +62,10 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(21, 11);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.pictureBox13.Location = new System.Drawing.Point(15, 7);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(66, 66);
+            this.pictureBox13.Size = new System.Drawing.Size(46, 40);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox13.TabIndex = 2;
             this.pictureBox13.TabStop = false;
@@ -73,10 +74,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(162, 25);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(113, 15);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 45);
+            this.label7.Size = new System.Drawing.Size(76, 30);
             this.label7.TabIndex = 16;
             this.label7.Text = "SIVAA";
             // 
@@ -85,10 +85,10 @@
             this.lblNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNombre.Location = new System.Drawing.Point(806, 15);
-            this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNombre.Location = new System.Drawing.Point(564, 9);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(255, 32);
+            this.lblNombre.Size = new System.Drawing.Size(172, 21);
             this.lblNombre.TabIndex = 1;
             this.lblNombre.Text = "Bienvenido: Fulanito";
             this.lblNombre.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -104,20 +104,18 @@
             this.panel7.Controls.Add(this.label7);
             this.panel7.Controls.Add(this.pictureBox13);
             this.panel7.ForeColor = System.Drawing.Color.White;
-            this.panel7.Location = new System.Drawing.Point(0, -4);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel7.Location = new System.Drawing.Point(0, -2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1108, 95);
+            this.panel7.Size = new System.Drawing.Size(776, 57);
             this.panel7.TabIndex = 36;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(529, 21);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(370, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 48);
+            this.label1.Size = new System.Drawing.Size(71, 32);
             this.label1.TabIndex = 17;
             this.label1.Text = "Inicio";
             // 
@@ -126,10 +124,10 @@
             this.lblTipoEmpleado.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTipoEmpleado.AutoSize = true;
             this.lblTipoEmpleado.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTipoEmpleado.Location = new System.Drawing.Point(888, 56);
-            this.lblTipoEmpleado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTipoEmpleado.Location = new System.Drawing.Point(622, 34);
+            this.lblTipoEmpleado.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lblTipoEmpleado.Name = "lblTipoEmpleado";
-            this.lblTipoEmpleado.Size = new System.Drawing.Size(96, 25);
+            this.lblTipoEmpleado.Size = new System.Drawing.Size(62, 15);
             this.lblTipoEmpleado.TabIndex = 1;
             this.lblTipoEmpleado.Text = "Supervisor";
             // 
@@ -144,10 +142,10 @@
             this.panel1.Controls.Add(this.btnCitas);
             this.panel1.Controls.Add(this.btnStock);
             this.panel1.Controls.Add(this.btnPedidos);
-            this.panel1.Location = new System.Drawing.Point(0, 94);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.panel1.Location = new System.Drawing.Point(0, 56);
+            this.panel1.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(94, 606);
+            this.panel1.Size = new System.Drawing.Size(66, 364);
             this.panel1.TabIndex = 35;
             // 
             // btnReportes
@@ -158,10 +156,10 @@
             this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnReportes.ImageKey = "bar-chart.png";
             this.btnReportes.ImageList = this.imageList2;
-            this.btnReportes.Location = new System.Drawing.Point(0, 480);
-            this.btnReportes.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btnReportes.Location = new System.Drawing.Point(0, 288);
+            this.btnReportes.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(102, 95);
+            this.btnReportes.Size = new System.Drawing.Size(71, 57);
             this.btnReportes.TabIndex = 10;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -189,10 +187,10 @@
             this.btnCobros.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCobros.ImageKey = "dollar-sign.png";
             this.btnCobros.ImageList = this.imageList2;
-            this.btnCobros.Location = new System.Drawing.Point(0, 384);
-            this.btnCobros.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btnCobros.Location = new System.Drawing.Point(0, 230);
+            this.btnCobros.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.btnCobros.Name = "btnCobros";
-            this.btnCobros.Size = new System.Drawing.Size(102, 95);
+            this.btnCobros.Size = new System.Drawing.Size(71, 57);
             this.btnCobros.TabIndex = 9;
             this.btnCobros.Text = "Cobros";
             this.btnCobros.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -207,10 +205,10 @@
             this.btnVentas.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnVentas.ImageKey = "shopping-cart.png";
             this.btnVentas.ImageList = this.imageList2;
-            this.btnVentas.Location = new System.Drawing.Point(0, 286);
-            this.btnVentas.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btnVentas.Location = new System.Drawing.Point(0, 172);
+            this.btnVentas.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Size = new System.Drawing.Size(102, 95);
+            this.btnVentas.Size = new System.Drawing.Size(71, 57);
             this.btnVentas.TabIndex = 8;
             this.btnVentas.Text = "Ventas";
             this.btnVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -225,10 +223,10 @@
             this.btnCitas.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCitas.ImageKey = "calendar.png";
             this.btnCitas.ImageList = this.imageList2;
-            this.btnCitas.Location = new System.Drawing.Point(0, 194);
-            this.btnCitas.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btnCitas.Location = new System.Drawing.Point(0, 116);
+            this.btnCitas.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.btnCitas.Name = "btnCitas";
-            this.btnCitas.Size = new System.Drawing.Size(102, 95);
+            this.btnCitas.Size = new System.Drawing.Size(71, 57);
             this.btnCitas.TabIndex = 7;
             this.btnCitas.Text = "Citas";
             this.btnCitas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -243,10 +241,10 @@
             this.btnStock.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnStock.ImageKey = "book-open.png";
             this.btnStock.ImageList = this.imageList2;
-            this.btnStock.Location = new System.Drawing.Point(-20, 95);
-            this.btnStock.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btnStock.Location = new System.Drawing.Point(-14, 57);
+            this.btnStock.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.btnStock.Name = "btnStock";
-            this.btnStock.Size = new System.Drawing.Size(142, 106);
+            this.btnStock.Size = new System.Drawing.Size(99, 64);
             this.btnStock.TabIndex = 6;
             this.btnStock.Text = "Inventario";
             this.btnStock.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -261,10 +259,10 @@
             this.btnPedidos.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnPedidos.ImageKey = "package.png";
             this.btnPedidos.ImageList = this.imageList2;
-            this.btnPedidos.Location = new System.Drawing.Point(0, 4);
-            this.btnPedidos.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.btnPedidos.Location = new System.Drawing.Point(0, 2);
+            this.btnPedidos.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.btnPedidos.Name = "btnPedidos";
-            this.btnPedidos.Size = new System.Drawing.Size(102, 95);
+            this.btnPedidos.Size = new System.Drawing.Size(71, 57);
             this.btnPedidos.TabIndex = 5;
             this.btnPedidos.Text = "Pedidos";
             this.btnPedidos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -278,10 +276,10 @@
             this.btnVersiones.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnVersiones.ImageKey = "Tipos.png";
             this.btnVersiones.ImageList = this.imageList1;
-            this.btnVersiones.Location = new System.Drawing.Point(352, 36);
-            this.btnVersiones.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVersiones.Location = new System.Drawing.Point(246, 22);
+            this.btnVersiones.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnVersiones.Name = "btnVersiones";
-            this.btnVersiones.Size = new System.Drawing.Size(246, 159);
+            this.btnVersiones.Size = new System.Drawing.Size(172, 95);
             this.btnVersiones.TabIndex = 52;
             this.btnVersiones.Text = "Versiones";
             this.btnVersiones.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -307,10 +305,10 @@
             this.btnEmpleados.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnEmpleados.ImageKey = "EMP.png";
             this.btnEmpleados.ImageList = this.imageList1;
-            this.btnEmpleados.Location = new System.Drawing.Point(684, 34);
-            this.btnEmpleados.Margin = new System.Windows.Forms.Padding(4);
+            this.btnEmpleados.Location = new System.Drawing.Point(479, 20);
+            this.btnEmpleados.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEmpleados.Name = "btnEmpleados";
-            this.btnEmpleados.Size = new System.Drawing.Size(246, 159);
+            this.btnEmpleados.Size = new System.Drawing.Size(172, 95);
             this.btnEmpleados.TabIndex = 52;
             this.btnEmpleados.Text = "Empleados";
             this.btnEmpleados.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -324,10 +322,10 @@
             this.btnCotizacion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnCotizacion.ImageKey = "Cot.png";
             this.btnCotizacion.ImageList = this.imageList1;
-            this.btnCotizacion.Location = new System.Drawing.Point(684, 226);
-            this.btnCotizacion.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCotizacion.Location = new System.Drawing.Point(479, 136);
+            this.btnCotizacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCotizacion.Name = "btnCotizacion";
-            this.btnCotizacion.Size = new System.Drawing.Size(246, 159);
+            this.btnCotizacion.Size = new System.Drawing.Size(172, 95);
             this.btnCotizacion.TabIndex = 52;
             this.btnCotizacion.Text = "Cotizacion";
             this.btnCotizacion.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -341,10 +339,10 @@
             this.btnVehículos.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnVehículos.ImageKey = "Auto.png";
             this.btnVehículos.ImageList = this.imageList1;
-            this.btnVehículos.Location = new System.Drawing.Point(20, 36);
-            this.btnVehículos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVehículos.Location = new System.Drawing.Point(14, 22);
+            this.btnVehículos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnVehículos.Name = "btnVehículos";
-            this.btnVehículos.Size = new System.Drawing.Size(246, 159);
+            this.btnVehículos.Size = new System.Drawing.Size(172, 95);
             this.btnVehículos.TabIndex = 52;
             this.btnVehículos.Text = "Vehiculos";
             this.btnVehículos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -358,10 +356,10 @@
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnClientes.ImageKey = "Cli.png";
             this.btnClientes.ImageList = this.imageList1;
-            this.btnClientes.Location = new System.Drawing.Point(352, 226);
-            this.btnClientes.Margin = new System.Windows.Forms.Padding(4);
+            this.btnClientes.Location = new System.Drawing.Point(246, 136);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(246, 159);
+            this.btnClientes.Size = new System.Drawing.Size(172, 95);
             this.btnClientes.TabIndex = 52;
             this.btnClientes.Text = "Clientes";
             this.btnClientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -375,10 +373,10 @@
             this.btnProveedor.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnProveedor.ImageKey = "Prov.png";
             this.btnProveedor.ImageList = this.imageList1;
-            this.btnProveedor.Location = new System.Drawing.Point(20, 226);
-            this.btnProveedor.Margin = new System.Windows.Forms.Padding(4);
+            this.btnProveedor.Location = new System.Drawing.Point(14, 136);
+            this.btnProveedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnProveedor.Name = "btnProveedor";
-            this.btnProveedor.Size = new System.Drawing.Size(246, 159);
+            this.btnProveedor.Size = new System.Drawing.Size(172, 95);
             this.btnProveedor.TabIndex = 52;
             this.btnProveedor.Text = "Proveedor";
             this.btnProveedor.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -396,22 +394,32 @@
             this.panel2.Controls.Add(this.btnEmpleados);
             this.panel2.Controls.Add(this.btnProveedor);
             this.panel2.Controls.Add(this.btnVersiones);
-            this.panel2.Location = new System.Drawing.Point(128, 170);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
+            this.panel2.Location = new System.Drawing.Point(90, 102);
+            this.panel2.Margin = new System.Windows.Forms.Padding(1, 2, 1, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(934, 389);
+            this.panel2.Size = new System.Drawing.Size(654, 233);
             this.panel2.TabIndex = 53;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(370, 353);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 57);
+            this.button1.TabIndex = 54;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1122, 704);
+            this.ClientSize = new System.Drawing.Size(785, 422);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Inicio";
             this.Text = "Inicio";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -449,5 +457,6 @@
         private Panel panel2;
         private Label lblTipoEmpleado;
         private Label label1;
+        private Button button1;
     }
 }
