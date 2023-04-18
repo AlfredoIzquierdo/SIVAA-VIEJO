@@ -26,6 +26,9 @@ namespace Pantallas_SIVAA
         //prueba 6
         //prueba 7
         //prueba 8
+        //pruena 00000
+        //prueba 11111
+        //sdcxzczxc
         public ProovedoresPrin()
         {
             InitializeComponent();

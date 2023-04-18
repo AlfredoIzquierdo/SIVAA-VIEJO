@@ -18,6 +18,7 @@ namespace Pantallas_SIVAA
     //alfredo
     public partial class AgregarVersion : Form
     {
+        //kdmflasmlasmc
         Versions version = new Versions();
         VersionLog log = new VersionLog();
         VehiculoLog veh = new VehiculoLog();
@@ -116,6 +117,7 @@ namespace Pantallas_SIVAA
 
         private void AgregarVersion_Load(object sender, EventArgs e)
         {
+            //Agregar Version
             List<Vehiculo> vh = veh.ListadoAll();
             foreach (Vehiculo x in vh)
             {
