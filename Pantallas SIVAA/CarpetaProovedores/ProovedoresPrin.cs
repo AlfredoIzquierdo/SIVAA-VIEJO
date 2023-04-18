@@ -19,6 +19,7 @@ namespace Pantallas_SIVAA
         readonly ProveedorLog proveedor = new ProveedorLog();
         Empleado _pqt;
         //prueba
+        //prueba 2
         public ProovedoresPrin()
         {
             InitializeComponent();
