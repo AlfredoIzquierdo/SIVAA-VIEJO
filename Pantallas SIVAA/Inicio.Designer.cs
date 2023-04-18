@@ -52,7 +52,6 @@
             btnClientes = new Button();
             btnProveedor = new Button();
             panel2 = new Panel();
-            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             panel7.SuspendLayout();
             panel1.SuspendLayout();
@@ -401,23 +400,12 @@
             panel2.Size = new Size(934, 388);
             panel2.TabIndex = 53;
             // 
-            // button1
-            // 
-            button1.Location = new Point(529, 588);
-            button1.Margin = new Padding(4, 5, 4, 5);
-            button1.Name = "button1";
-            button1.Size = new Size(163, 95);
-            button1.TabIndex = 54;
-            button1.Text = "Modificacion";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // Inicio
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1121, 703);
-            Controls.Add(button1);
             Controls.Add(panel2);
             Controls.Add(panel7);
             Controls.Add(panel1);
@@ -458,6 +446,5 @@
         private Panel panel2;
         private Label lblTipoEmpleado;
         private Label label1;
-        private Button button1;
     }
 }
