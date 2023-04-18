@@ -1,0 +1,99 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label6.Text" xml:space="preserve">
+    <value>El(Los) suscritos(s)                                                                 (en adelante "EL(LOS) SUSCRIPTORES(ES)"),  por este pagare (en adelante "PAGARE"), promete incondicionalme,-
+te pagar a la orden de BBVA BANCOMER S.A, INSTITUCION DE BANCA MULTIPLE, GRUPO FINANCIERO BBVA BANCOMER, en lo sucesivo "BANCOMER", la suma principal de
+                    , mediante          amortizaciones mensuales iguales y sucesivas por la cantidad de                   cada una, exigibles y pagaderas cada una de ellas en la "FECHA DE 
+PAGO DE MENSUALIDAD" (segun este termino se define mas adelante) que corresponda, en la inteligencia que, el periodo de presentacion de este "PAGARE" se extiende 
+hasta 180 dias despues de la fecha de vencimiento de la ultima de las amortizaciones de la suma principal de este "PAGARE".</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>A partir de la fecha de suscripcion del presente "PAGARE" y hasta su vencimiento, la suma principal insoluta  devengara intereses ordinarios, que seran pagaderos en cada 
+"FECHA DE PAGO DE MENSUALIDAD", a una tasa de interes anualizada del                             aplicable durante cada "PERIODO DE INTERESES".</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Si "El (LOS SUSCRIPTORES)(ES)"  no realizan(n) cualquier pago en las fechas establecidas en el presente "PAGARE" por cualquier concepto, se dara por vencido en forma 
+anticipada y seran pagados de inmediatola suma principal y sus accesorios.
+
+La suma principal de este "PAGARE" y los intereses correspondientes al mismo se pagaran a "BANCOMER",en sus oficinas ubicadas en el lugar de suscripcion de este "P-
+AGARE" en la fecha en que deba hacerse pago correspondiente, en pesos moneda de curso legal en Mexico y fondos disponibles el mismo dia.
+
+En el supuesto de que cualquier pago conforme a este "PAGARE" debiere hacerse en un dia que no fuere un "DIA HABIL" (segun dicho termino se define a continuacion), 
+dicho pago se hara, en el "DIA HABIL" inmediato siguiente.
+
+La suma principal de este "PAGARE", asi como los intereses correspondientes al mismo, se pagaran libres de toda deduccion de impuestos, derechos, tributos, contribuc-
+iones,cargos, retenciones y cualquier responsabilidad fiscal, presenta o futura, respecto a las sumas pagaderas conforme a este "PAGARE"
+
+</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Para todo lo relativo al presente "PAGARE", "EL SUSCRIPTOR" y, en su caso, los de mas obligados cambiarios. se someten(n) a la juridisccion y competencias de los tribuna-
+les del lugar donde se firme el presente "PAGARE", en BAJA CALIFORNIA SUR a los         dias del mes de         del año     ,   a la eleccion de la parte actora, renunciando a cu
+alquier otro afuero o domicilio
+
+</value>
+  </data>
+  <metadata name="printDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

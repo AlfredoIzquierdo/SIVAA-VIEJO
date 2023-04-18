@@ -1,0 +1,85 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label20.Text" xml:space="preserve">
+    <value>La venta está sujeta a las siguientes condiciones y representaciones:
+El vendedor acusa recibo de              como pago total del Vehículo,el Automóvil se entregará en perfectas condiciones, libre de cualquier gravamento
+ adeudo y con todos los documentos correspondientes en regla.
+
+El Comprador será responsable de todos los trámites y pagos que deban realizarse ante las autoridades correspondientes para la transferencia del Au
+tomóvil a su nombre. Cualquier gasto adicional que se genere por la transferencia de la propiedad del Automóvil correrá a cargo del Comprador.
+
+El Vendedor garantiza que el Automóvil es nuevo y que se encuentra en perfectas condiciones de uso, sin ningún defecto o daño que afecte su funcio-
+namiento normal. El Automóvil cuenta con la garantía de fábrica que proporciona Nissan y que se encuentra detallada en el manual de usuario que se
+ entregará al Comprador junto con el Automóvil.
+
+El Vendedor le garantiza al Comprador que posee la titularidad pertinente de dicha propiedad, autoridad plena para vender y transferir dicha propiedad 
+y que dicha propiedad se vende libre de cargas, obligaciones y demandas de cualquier naturaleza.
+
+Cualquier controversia que surja entre las partes en relación con la interpretación o cumplimiento del presente Contrato será resuelta mediante el arbitraje 
+de un tribunal designado de común acuerdo entre las partes, de conformidad con la legislación aplicable en La Paz, Baja California Sur,Mexico.</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>ESTE CONTRATO CERTIFICA QUE, por el pago de                    pesos mexicanos, efectuado por completo,los abajo firmantes                                      
+(Vendedor) vende y transfiere a                      (comprador), el vehiculo con las siguientes caracteristicas:</value>
+  </data>
+  <metadata name="printDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
