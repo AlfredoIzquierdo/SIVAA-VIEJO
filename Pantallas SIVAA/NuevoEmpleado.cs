@@ -66,9 +66,13 @@ namespace Pantallas_SIVAA
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            if (ValidarVacios())
+            {
+                return;
+            }
             List<Empleado> x = empleadolog.ListadoAll();
-            string i = "E" + (x.Count+1).ToString();
+            string i = "E" + (x.Count + 1).ToString();
+            empleado.IDEmpleado = i;
             empleado.Nombre = txtNombre.Text;
             empleado.ApellidoPat = txtApellidoP.Text;
             empleado.ApellidoMat = txtApellidoM.Text;
@@ -81,6 +85,101 @@ namespace Pantallas_SIVAA
             empleadolog.Registrar(empleado);
             this.Hide();
             Inicio.GestionarEmpleados.Show();
+        }
+        public bool ValidarVacios()
+        {
+            if (txtNombre.Text == "" || txtApellidoP.Text == "" || txtApellidoM.Text == "" || txtCorreo.Text == "" || txtContraseña.Text == "" || txtRFC.Text == "" || txtTelefono.Text == "")
+            {
+                MessageBox.Show("Favor de llenar todos los campos");
+                return true;
+            }
+            if (cbPuesto.SelectedIndex < 0)
+            {
+                MessageBox.Show("Favor de seleccionar un puesto para el empleado");
+                return true;
+            }
+            return false;
+        }
+        private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                e.Handled = true;
+            }
+            if (txtNombre.Text.Length > 9)
+            {
+                e.Handled = true;
+                //MessageBox.Show("Limite de caracteres exedido");
+                string te = txtNombre.Text.Substring(0, 9).ToString();
+                txtNombre.Text = te;
+            }
+        }
+
+        private void txtTelefono_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtContraseña_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (txtContraseña.Text.Length > 9)
+            {
+                e.Handled = true;
+                //MessageBox.Show("Limite de caracteres exedido");
+                string te = txtContraseña.Text.Substring(0, 9).ToString();
+                txtContraseña.Text = te;
+            }
+            if (txtRFC.Text.Length > 9)
+            {
+                e.Handled = true;
+                //MessageBox.Show("Limite de caracteres exedido");
+                string te = txtRFC.Text.Substring(0, 9).ToString();
+                txtRFC.Text = te;
+            }
+        }
+
+        private void txtApellidoM_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                e.Handled = true;
+            }
+            if (txtApellidoM.Text.Length > 9)
+            {
+                e.Handled = true;
+                //MessageBox.Show("Limite de caracteres exedido");
+                string te = txtApellidoM.Text.Substring(0, 9).ToString();
+                txtApellidoM.Text = te;
+            }
+        }
+
+        private void txtApellidoP_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                e.Handled = true;
+            }
+            if (txtApellidoP.Text.Length > 9)
+            {
+                e.Handled = true;
+                //MessageBox.Show("Limite de caracteres exedido");
+                string te = txtApellidoP.Text.Substring(0, 9).ToString();
+                txtApellidoP.Text = te;
+            }
+        }
+
+        private void txtCorreo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (txtCorreo.Text.Length > 9)
+            {
+                e.Handled = true;
+                //MessageBox.Show("Limite de caracteres exedido");
+                string te = txtCorreo.Text.Substring(0, 9).ToString();
+                txtCorreo.Text = te;
+            }
         }
     }
 }
